@@ -173,22 +173,5 @@ session_start();
     <div class="foot-link"><a href="../contact">Contact</a></div>
   </div>
 </div>
-</body>
-
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5_ERD7aULtFdc4MISqdHHVRHGc_RlJK8&amp;libraries=places"></script>
-
-<script>
-  google.maps.event.addDomListener(window, 'load', initialize);
-    function initialize() {
-      var input = document.getElementById('autocomplete_search');
-      var autocomplete = new google.maps.places.Autocomplete(input);
-      autocomplete.addListener('place_changed', function () {
-      var place = autocomplete.getPlace();
-      // place variable will have all the information you are looking for.
-      $('#lat').val(place.geometry['location'].lat());
-      $('#long').val(place.geometry['location'].lng());
-    });
-  }
-</script>
-
+</body>
 </html>
