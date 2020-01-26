@@ -1,0 +1,11 @@
+[14-Jan-2020 09:19:58 UTC] PHP Notice:  Use of undefined constant HTTP_HOST - assumed 'HTTP_HOST' in /home1/cubedpot/public_html/includes/send.email.inc.php on line 7
+[14-Jan-2020 09:19:58 UTC] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home1/cubedpot/public_html/includes/send.email.inc.php on line 7
+[14-Jan-2020 09:19:58 UTC] PHP Notice:  Undefined index: name in /home1/cubedpot/public_html/includes/send.email.inc.php on line 9
+[14-Jan-2020 09:19:58 UTC] PHP Notice:  Undefined index: uid-email in /home1/cubedpot/public_html/includes/send.email.inc.php on line 10
+[14-Jan-2020 09:19:58 UTC] PHP Notice:  Undefined index: message in /home1/cubedpot/public_html/includes/send.email.inc.php on line 11
+[14-Jan-2020 09:19:58 UTC] PHP Notice:  Undefined index: autocomplete_search in /home1/cubedpot/public_html/includes/send.email.inc.php on line 12
+[14-Jan-2020 09:19:58 UTC] PHP Notice:  Undefined variable: headers in /home1/cubedpot/public_html/includes/send.email.inc.php on line 27
+[14-Jan-2020 09:19:58 UTC] PHP Notice:  Undefined variable: headers in /home1/cubedpot/public_html/includes/send.email.inc.php on line 46
+[14-Jan-2020 09:19:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/cubedpot/public_html/includes/send.email.inc.php:7) in /home1/cubedpot/public_html/includes/send.email.inc.php on line 48
+[23-Jan-2020 16:15:58 UTC] PHP Parse error:  syntax error, unexpected '$visitor_email' (T_VARIABLE) in /home1/cubedpot/public_html/includes/send.mail.inc.php on line 15
+[23-Jan-2020 16:19:35 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home1/cubedpot/public_html/includes/send.mail.inc.php on line 34
