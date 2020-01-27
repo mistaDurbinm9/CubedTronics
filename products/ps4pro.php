@@ -19,21 +19,21 @@ session_start();
   <script type="text/javascript" src="../js/javaScript.js"></script>
   <script type="text/javascript" src="js/prod_scripts.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap" rel="stylesheet">
-  <title>serverWebsite</title>
+  <title>Cubed Tronics</title>
 </head>
 <body>
 
   <div class="modal" name="hdd_modal">
     <div class="modal-content animate-top">
       <span class="close">&times;</span>
-      <h1>HDD Repair</h1>
+      <h1>Hard Drive Repair</h1>
       <div class="modal-list">
         <div class="modal-list-item">&#8226; 100% Guaranteed High Quality OEM Replacement Parts Used</div>
         <div class="modal-list-item">&#8226; We have the ability to fix 99% of Hard Disc Drive issues, including replacement (if needed.)</div>
         <div class="modal-list-item">&#8226; Free Return Shipping, you ship it to us and we pay to ship it back!</div>
         <div class="modal-list-item">&#8226; 60-day Warranty</div>
       </div>
-      <p>Sometimes your Xbox One S's Hard Disc Drive shows an error when trying to boot up (e.g. E102, E106, E101, ect.) This can either be a software problem or caused by physical damage to your drive. We can fix 99% of these errors and use reliable OEM replacement parts. Bring your console back to life by sending it in now!</p>
+      <p>Sometimes your PS4 Pro shows an error when trying to boot up (e.g. E102, E106, E101, ect.) This can either be a software problem, regular wear and tear, or caused by physical damage to your drive. We can fix 99% of these errors and use reliable OEM replacement parts. Bring your console back to life by sending it in now!</p>
     </div>
   </div>
 
@@ -41,7 +41,13 @@ session_start();
     <div class="modal-content animate-top">
       <span class="close">&times;</span>
       <h1>HDMI Repair</h1>
-      <p>hdmi modal</p>
+      <div class="modal-list">
+        <div class="modal-list-item">&#8226; 100% Guaranteed High Quality OEM Replacement Parts Used</div>
+        <div class="modal-list-item">&#8226; We have the ability to fix 99% of HDMI issues, including replacement (if needed.)</div>
+        <div class="modal-list-item">&#8226; Free Return Shipping, you ship it to us and we pay to ship it back!</div>
+        <div class="modal-list-item">&#8226; 60-day Warranty</div>
+      </div>
+      <p>If your PS4 Pro fails to display an image on the screen when plugged into a monitor or TV, it will most likely be caused by damage to your HDMI port, it can also be a failed chip on the motherboard. Wether it be one or the other, or both, you can trust we will diagnose the issue and fix it accordingly.</p>
     </div>
   </div>
 
@@ -49,7 +55,26 @@ session_start();
     <div class="modal-content animate-top">
       <span class="close">&times;</span>
       <h1>Overheating Repair</h1>
-      <p>overheat modal</p>
+      <div class="modal-list">
+        <div class="modal-list-item">&#8226; 100% Guaranteed High Quality OEM Replacement Parts Used</div>
+        <div class="modal-list-item">&#8226; Free Return Shipping, you ship it to us and we pay to ship it back!</div>
+        <div class="modal-list-item">&#8226; 60-day Warranty</div>
+      </div>
+      <p>If your PS4 Pro tends to feel uncomfortably hot to the touch, or your fan spins abnormally loud, it is most likely an overheating issue. We clean out all dust and use high quality replacement thermal compound to restore your console's cooling system. If a fan replacement is needed, we can do that as well.</p>
+    </div>
+  </div>
+
+  <div class="modal" name="discdrive_modal">
+    <div class="modal-content animate-top">
+      <span class="close">&times;</span>
+      <h1>Disc Drive Repair</h1>
+      <div class="modal-list">
+        <div class="modal-list-item">&#8226; 100% Guaranteed High Quality OEM Replacement Parts Used</div>
+        <div class="modal-list-item">&#8226; We have the ability to fix 99% of Disc Drive issues.</div>
+        <div class="modal-list-item">&#8226; Free Return Shipping, you ship it to us and we pay to ship it back!</div>
+        <div class="modal-list-item">&#8226; 60-day Warranty</div>
+      </div>
+      <p>If your PS4 Pro failes to pull in a disc, doesn't spin properly, or doesnt read games, it can be one of many issues with your disc drive. If you have any of these issues we will be able to get you back up and running so you can play your favorite games once again!</p>
     </div>
   </div>
 
@@ -86,26 +111,26 @@ session_start();
 
 <div class="login">
   <?php
-  if (isset($_SESSION['userId'])) {
-    echo '
-    <form class="" action="../cart" method="post">
-    <button type="submit" name="cart">My Cart</button>
-    </form>
-    <form class="" action="../includes/logout.inc.php" method="post">
-    <button type="submit" name="logout-submit">Log Out</button>
-    </form>
-    ';
-  }else{
-    echo '<form action="../includes/login.inc.php" method="post">
-    <input type="text" name="mailuid" placeholder="Username/Email... ">
-    <input type="password" name="pwd" placeholder="Password... "><br>
-    <button type="submit" name="login-submit">Log In</button>
-    </form>
-    <p>-OR-</p>
-    <form class="" action="../signup" method="post">
-    <button type="submit" name="signup-submit">Register</button>
-    </form>';
-  }
+  // if (isset($_SESSION['userId'])) {
+  //   echo '
+  //   <form class="" action="../cart" method="post">
+  //   <button type="submit" name="cart">My Cart</button>
+  //   </form>
+  //   <form class="" action="../includes/logout.inc.php" method="post">
+  //   <button type="submit" name="logout-submit">Log Out</button>
+  //   </form>
+  //   ';
+  // }else{
+  //   echo '<form action="../includes/login.inc.php" method="post">
+  //   <input type="text" name="mailuid" placeholder="Username/Email... ">
+  //   <input type="password" name="pwd" placeholder="Password... "><br>
+  //   <button type="submit" name="login-submit">Log In</button>
+  //   </form>
+  //   <p>-OR-</p>
+  //   <form class="" action="../signup" method="post">
+  //   <button type="submit" name="signup-submit">Register</button>
+  //   </form>';
+  // }
   ?>
 
 </div>
@@ -118,32 +143,46 @@ session_start();
           <div class="prodtext">
             <h2 class="item-active"><u>PS4 Pro Rep</u>air</h2>
             <p>Select repair(s) needed along with your name, email, and any additional comments. </p>
+            <small>Note: We do not fix consoles with power issues, including but not limited to: turning on then off again, random shutdowns, or failing to power on completely. If we recieve a console with power issues, we will ship it back and invoice you for shipping costs. If it is not paid after 40 days, we will recycle your device.</small>
             <form class="contact-form" action="../includes/send.mail.inc.php" method="post">
               <input type="hidden" name="destination" value="<?php echo $_SERVER["REQUEST_URI"]; ?>"/>
               <div class="repair_opt">
-                <label class="container"> Hard Drive Repair - $99.99
-                  <input type="checkbox" name="repair_type[]" value="ps4Pro_hdd_repair" data-id="0">
+                <label class="container"> Hard Drive Repair - $114.99
+                  <input type="checkbox" name="repair_type[]" value="PS4Slim_hdd_repair" data-id="0">
                   <span class="checkmark"></span>
                 </label><br></br>
                 <i class="more-info-icon" name="hdd_modal"></i>
               </div>
               <div class="repair_opt">
-                <label class="container"> HDMI Repair - $99.99
-                  <input type="checkbox" name="repair_type[]" value="ps4Pro_hdmi_repair" data-id="1">
+                <label class="container"> HDMI Repair - $89.99
+                  <input type="checkbox" name="repair_type[]" value="PS4Slim_hdmi_repair" data-id="1">
                   <span class="checkmark"></span>
                 </label><br></br>
                 <i class="more-info-icon" name="hdmi_modal"></i>
               </div>
               <div class="repair_opt">
                 <label class="container"> Overheating Repair - $99.99
-                  <input type="checkbox" name="repair_type[]" value="ps4Pro_overheat_repair" data-id="2">
+                  <input type="checkbox" name="repair_type[]" value="PS4Slim_overheat_repair" data-id="2">
                   <span class="checkmark"></span>
                 </label><br></br>
                 <i class="more-info-icon" name="overheat_modal"></i>
               </div>
+              <div class="repair_opt">
+                <label class="container"> Disc Drive Repair - $109.99
+                  <input type="checkbox" name="repair_type[]" value="PS4Slim_discdrive_repair" data-id="3">
+                  <span class="checkmark"></span>
+                </label><br></br>
+                <i class="more-info-icon" name="discdrive_modal"></i>
+              </div>
               <p id="total">Total: $0.00</p>
-              <input type="text" name="name" maxlength="50" placeholder="Your Name" required>
-              <input type="email" name="uid-email" maxlength="50" placeholder="Your Email Address" required>
+              <input type="text" name="firstname" maxlength="50" placeholder="First Name" required>
+              <input type="text" name="lastname" maxlength="50" placeholder="Last Name" required>
+              <input type="email" name="uid-email" maxlength="50" placeholder="Email Address" required>
+              <input type="text" name="street" maxlength="50" placeholder="Street Address" required>
+              <input type="text" name="city" maxlength="50" placeholder="City" required>
+              <input type="text" name="state" maxlength="50" placeholder="State/Province" required>
+              <input type="text" name="zip" maxlength="50" placeholder="Zip/Postal Code" required>
+              <p>Please describe what is wrong with your device below:</p>
               <textarea id="message" name="message" maxlength="1000" cols="25" rows="6" placeholder="Message..." required></textarea><br>
               <button type="submit" name="submit-form">Submit</button>
             </form>
@@ -151,7 +190,6 @@ session_start();
           <div class="prodimg">
             <img src="images/ps4ProBig.png" alt="">
           </div>
-
         </div>
       </div>
     </div>
@@ -162,6 +200,7 @@ session_start();
     &copy; Copyright Cubed Tronics 2020
   </div>
   <div class="social-foot">
+    <a href="https://www.youtube.com/channel/UCojtAwhKqHXG6fCYI5zdiEA"><img src="../images/youtube.png" alt="yt"></a>
     <a href="https://www.instagram.com/cubedtronics"><img src="../images/instagram.png" alt="insta"></a>
     <a href="https://www.fb.me/cubedtronics"><img src="../images/facebook.png" alt="fb"></a>
   </div>

@@ -14,50 +14,20 @@ $firstname = $_POST['firstname'];
 $lastname = $_POST['lastname'];
 $visitor_email = $_POST['uid-email'];
 $message = $_POST['message'];
-$device = $_POST['device'];
-$street = $_POST['street'];
-$city = $_POST['city'];
-$state = $_POST['state'];
-$zip = $_POST['zip'];
 
 $email_from = "noreply@cubedtronics.com";
 
-$email_subject = "Repair Request";
+$email_subject = "Help Request";
 
-$address = "$street<br>".
-              "$city<br>".
-                "$state<br>".
-                  "$zip<br>";
 
-$altaddress = "$street\n".
-              "$city\n".
-                "$state\n".
-                  "$zip\n";
 
 $email_body = "First Name: $firstname<br>Last Name: $lastname<br>".
 "Email: $visitor_email<br>".
-"Device: $device<br>".
-"Address: <br>$address<br>".
 "Message: <br>$message<br>";
 
 $altemail_body = "\n First Name: $firstname \nLast Name: $lastname\n".
 "Email: $visitor_email\n".
-"Device: $device\n".
-"Address: \n$altaddress\n".
 "Message: \n$message\n";
-
-$repair_type  = 'void';
-if(isset($_POST['repair_type']) && is_array($_POST['repair_type']) && count($_POST['repair_type']) > 0){
-  $repair_type = implode(', ', $_POST['repair_type']);
-}
-
-if($repair_type != "void"){
-  $email_body .= "Repair Types: " . $repair_type;
-  $altemail_body .= "Repair Types: " . $repair_type;
-}else{
-  $email_body .= "";
-  $altemail_body .= "";
-}
 
 
 try {
@@ -66,13 +36,13 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'ssl://mail.cubedtronics.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'tdavis@cubedtronics.com';
-    $mail->Password   = 'uR?55~XezZ$;';
+    $mail->Username   = 'help@cubedtronics.com';
+    $mail->Password   = '6XBE32f565!';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 465;
 
     $mail->setFrom($email_from);
-    $mail->addAddress('tdavis@cubedtronics.com');
+    $mail->addAddress('help@cubedtronics.com');
     $mail->addAddress('4349647038@txt.att.net');
     $mail->addReplyTo($visitor_email);
 

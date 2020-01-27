@@ -136,6 +136,11 @@ a{
   max-height: 9vh;
   width:auto;
   filter: drop-shadow(3px 2px 3px rgba(0,0,0,0.6));
+  transition: filter 0.5s;
+}
+
+.logo > a > img:hover{
+  filter: brightness(115%) drop-shadow(3px 2px 3px rgba(0,0,0,0.6));
 }
 
 .nav{
@@ -526,6 +531,7 @@ input:focus {
   min-height:-moz-max-content;
   min-height:max-content;
   width:100%;
+  height: max-content;
   background: -webkit-gradient(linear, left top, left bottom, from(#38374c),to(#646379));
   background: -o-linear-gradient(top, #38374c 0%,#646379 100%);
   background: linear-gradient(to bottom, #38374c 0%,#646379 100%);
@@ -548,6 +554,7 @@ input:focus {
   display:-webkit-box;
   display:-ms-flexbox;
   display:flex;
+  margin-bottom:35px;
   width:100%;
   min-height:25vh;
   -webkit-box-orient: horizontal;
@@ -573,11 +580,23 @@ input:focus {
   -webkit-box-direction:normal;
       -ms-flex-direction:column;
           flex-direction:column;
+          padding:30px;
+}
+
+.link-image > img{
+  width:150px;
+  height:auto;
+  filter: drop-shadow(3px 2px 3px rgba(0,0,0,0.6));
+  margin-bottom:50px;
+}
+
+.link-desc{
+  font-size:20px;
+  text-align: center;
 }
 
 .ship-steps{
   width:100%;
-  min-height:25vh;
   display:-webkit-box;
   display:-ms-flexbox;
   display:flex;
@@ -603,6 +622,19 @@ input:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding:30px;
+}
+.ship-step > img{
+  width:150px;
+  height:auto;
+  filter: drop-shadow(3px 2px 3px rgba(0,0,0,0.6));
+}
+.ship-step > p{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size:20px;
 }
 
 
@@ -615,7 +647,6 @@ input:focus {
       -ms-flex-direction:column;
           flex-direction:column;
   width:100%;
-  height:25vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

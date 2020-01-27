@@ -14,7 +14,7 @@
   <script src="https://mcapi.us/scripts/minecraft.js"></script>
   <script type="text/javascript" src="js/javaScript.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap" rel="stylesheet">
-  <title>serverWebsite</title>
+  <title>Cubed Tronics</title>
 </head>
 <body>
 
@@ -79,9 +79,11 @@
     <div class="content">
       <div class="success-cont">
         <h1 class="item-active">Success!</h1>
-        <p>Thank you for submitting your request. A technican will be in contact with you within 24 Hours to confirm and provide a free estimate for you repair.
-           If you have any questions or comments, please feel free to contact us at help@cubedtronics.com.<br><br><br><br><br><br><br>
+        <p>Thank you for submitting your request. A technican will be in contact with you within 24 Hours to confirm. All you have to do now is ship your device to us, you can find the steps to do so below. Turnaround time can vary per product and type of repair. Game console repairs can take 1-3 days, Macbook repairs can take anywhere between 3 days up to 3 weeks.
+           If you have any questions or comments, please feel free to contact us at help@cubedtronics.com.<br>
         </p>
+        <!-- <small>Note: We do not service devices that have been worked on before. If we recieve a device that has been attempted to be repaired before, we will Invoice you for shipping costs and send it back. If shippings costs are not paid within 40 days, we will recycle your device.</small> -->
+        <br><br><br><br><br><br><br>
       </div>
       <div class="ship-info">
         <h1>Need help with how to ship your device to us?</h1>
@@ -108,6 +110,7 @@
       &copy; Copyright Cubed Tronics 2020
     </div>
     <div class="social-foot">
+      <a href="https://www.youtube.com/channel/UCojtAwhKqHXG6fCYI5zdiEA"><img src="images/youtube.png" alt="yt"></a>
       <a href="https://www.instagram.com/cubedtronics"><img src="images/instagram.png" alt="insta"></a>
       <a href="https://www.fb.me/cubedtronics"><img src="images/facebook.png" alt="fb"></a>
     </div>

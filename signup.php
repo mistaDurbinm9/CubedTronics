@@ -9,7 +9,7 @@
   <script src="https://mcapi.us/scripts/minecraft.js"></script>
   <script type="text/javascript" src="js/javaScript.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap" rel="stylesheet">
-  <title>serverWebsite</title>
+  <title>Cubed Tronics</title>
 </head>
 <body>
   <svg id="fader"></svg>
@@ -85,6 +85,11 @@
   <div class="foot">
     <div class="foot-copyright">
       &copy; Copyright Cubed Tronics 2020
+    </div>
+    <div class="social-foot">
+      <a href="https://www.youtube.com/channel/UCojtAwhKqHXG6fCYI5zdiEA"><img src="images/youtube.png" alt="yt"></a>
+      <a href="https://www.instagram.com/cubedtronics"><img src="images/instagram.png" alt="insta"></a>
+      <a href="https://www.fb.me/cubedtronics"><img src="images/facebook.png" alt="fb"></a>
     </div>
     <div class="foot-links">
       <div class="foot-link"><a href="index">Home</a></div>

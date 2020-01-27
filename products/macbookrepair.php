@@ -89,6 +89,10 @@
                 <input type="text" name="firstname" maxlength="50" placeholder="First Name" required/><input type="text" name="lastname" maxlength="50" placeholder="Last Name" required/>
                 <input type="email" name="uid-email" maxlength="50" placeholder="Email Address" required/>
                 <input type="text" name="device" maxlength="50" placeholder="What device do you have?" required/>
+                <input type="text" name="street" maxlength="50" placeholder="Street Address" required>
+                <input type="text" name="city" maxlength="50" placeholder="City" required>
+                <input type="text" name="state" maxlength="50" placeholder="State/Province" required>
+                <input type="text" name="zip" maxlength="50" placeholder="Zip/Postal Code" required>
                 <p>Please describe what is wrong with your machine in detail below.</p>
                 <textarea id="message" name="message" maxlength="1000" cols="25" rows="6" placeholder="Message..." required></textarea><br>
                 <button type="submit" name="submit-form">Submit</button>
@@ -107,6 +111,7 @@
       &copy; Copyright Cubed Tronics 2020
     </div>
     <div class="social-foot">
+      <a href="https://www.youtube.com/channel/UCojtAwhKqHXG6fCYI5zdiEA"><img src="../images/youtube.png" alt="yt"></a>
       <a href="https://www.instagram.com/cubedtronics"><img src="../images/instagram.png" alt="insta"></a>
       <a href="https://www.fb.me/cubedtronics"><img src="../images/facebook.png" alt="fb"></a>
     </div>

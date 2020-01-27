@@ -3,22 +3,28 @@ $(document).ready(function() {
 function hdd_repair() {
   this.id = 0;
   this.name = "hdd_repair";
-  this.cost = 99.99;
+  this.cost = 114.99;
 }
 function hdmi_repair() {
   this.id = 1;
   this.name = "hdmi_repair";
-  this.cost = 99.99;
+  this.cost = 89.99;
 }
 function overheat_repair() {
   this.id = 2;
   this.name = "overheat_repair";
   this.cost = 99.99;
 }
+function discdrive_repair(){
+  this.id = 3;
+  this.name = "discdrive_repair";
+  this.cost = 109.99;
+}
 
 var hdd = new hdd_repair();
 var hdmi = new hdmi_repair();
 var overheat = new overheat_repair();
+var discdrive = new discdrive_repair();
 
 $('.more-info-icon').click(function(){
   var modalName = $(this).attr("name");
@@ -42,6 +48,8 @@ var products=[];
                 products.push(hdmi);
             } else if(id==2){
                 products.push(overheat);
+            }else if(id==3){
+              products.push(discdrive);
             }
         }
         else{

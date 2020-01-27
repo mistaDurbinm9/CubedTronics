@@ -14,7 +14,7 @@ session_start();
   <script type="text/javascript" src="js/javaScript.js"></script>
   <script type="text/javascript" src="js/slideshow.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap" rel="stylesheet">
-  <title>Cubed Tronics Consumer Electronic Repair</title>
+  <title>Cubed Tronics</title>
 </head>
 <body>
 
@@ -114,34 +114,34 @@ session_start();
       <div class="quick-links">
         <div class="link">
           <div class="link-image">
-
+            <img src="images/know-icon.png" alt="">
           </div>
           <div class="link-desc">
-            Know how to fix consoles and laptops
+            We have the proper knowlege, training, and experience to fix your device!
           </div>
         </div>
         <div class="link">
           <div class="link-image">
-
+            <img src="images/tool-icon.png" alt="">
           </div>
           <div class="link-desc">
-            Specialized tools and quality Parts
+            We use the proper specialized tools to make sure we complete your repair correctly
           </div>
         </div>
         <div class="link">
           <div class="link-image">
-
+            <img src="images/warranty-icon.png" alt="">
           </div>
           <div class="link-desc">
-            Warranty (take pride give ability to warranty)
+            We take pride in every repair we do which gives us the confidence to warranty any and all repairs we complete
           </div>
         </div>
         <div class="link">
           <div class="link-image">
-
+            <img src="images/question-icon.png" alt="">
           </div>
           <div class="link-desc">
-            Any questions? Contact us here.
+            If you have any questions or comments, head over to our contact page and send us an e-mail; we'd be happy to hear from you!
           </div>
         </div>
       </div>
@@ -149,16 +149,20 @@ session_start();
         <h1>Need help with how to ship your console or laptop to us?</h1>
         <div class="ship-steps">
           <div class="ship-step">
-            <img src="" alt="">
-            <h2>STEP ONE</h2>
+            <img src="images/form-icon.png" alt="">
+            <p>Make sure to fill out the form before shipping your device to us</p>
           </div>
           <div class="ship-step">
-            <img src="" alt="">
-            <h2>STEP TWO</h2>
+            <img src="images/box-icon.png" alt="">
+            <p>Get a sturdy box that isnt going to get damaged in transit, and make sure to use an adequate amount of packaging material to protect your device</p>
           </div>
           <div class="ship-step">
-            <img src="" alt="">
-            <h2>STEP THREE</h2>
+            <img src="images/note-icon.png" alt="">
+            <p>Leave a note in the package with your name and email to ensure we know who sent us the device and we can match it up with your form submission.</p>
+          </div>
+          <div class="ship-step">
+            <img src="images/add-icon.png" alt="">
+            <p>Address it to us and send it on its way! We suggest adding insurance to your package to ensure that it gets to us safely.</p>
           </div>
         </div>
       </div>
@@ -169,6 +173,7 @@ session_start();
       &copy; Copyright Cubed Tronics 2020
     </div>
     <div class="social-foot">
+      <a href="https://www.youtube.com/channel/UCojtAwhKqHXG6fCYI5zdiEA"><img src="images/youtube.png" alt="yt"></a>
       <a href="https://www.instagram.com/cubedtronics"><img src="images/instagram.png" alt="insta"></a>
       <a href="https://www.fb.me/cubedtronics"><img src="images/facebook.png" alt="fb"></a>
     </div>

@@ -15,7 +15,7 @@ session_start();
   <script src="https://mcapi.us/scripts/minecraft.js"></script>
   <script type="text/javascript" src="js/javaScript.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap" rel="stylesheet">
-  <title>serverWebsite</title>
+  <title>Cubed Tronics</title>
 </head>
 <body>
 
@@ -80,9 +80,10 @@ session_start();
     <div class="content">
         <div class="contact-form">
           <h1>Contact</h1>
-          <p>You can contact me here by filling out this form regarding any questions you may have or with any business inquiries; or just send me an E-mail to tdavis@cubedtronics.com.</p>
-          <form class="contact-form" action="includes/send.mail.inc.php" method="post">
-            <input type="text" name="name" maxlength="50" placeholder="Your Name" required>
+          <p>You can contact me here by filling out this form regarding any questions you may have or with any business inquiries; or just send me an E-mail to help@cubedtronics.com.</p>
+          <form class="contact-form" action="includes/send.help.mail.inc.php" method="post">
+            <input type="text" name="firstname" maxlength="50" placeholder="First Name" required>
+            <input type="text" name="lastname" maxlength="50" placeholder="Last Name" required>
             <input type="email" name="uid-email" maxlength="50" placeholder="Your Email Address" required>
             <textarea id="message" name="message" maxlength="1000" cols="25" rows="6" placeholder="Message..." required></textarea><br>
             <button type="submit" name="submit-form">Submit</button>
@@ -95,6 +96,7 @@ session_start();
       &copy; Copyright Cubed Tronics 2020
     </div>
     <div class="social-foot">
+      <a href="https://www.youtube.com/channel/UCojtAwhKqHXG6fCYI5zdiEA"><img src="images/youtube.png" alt="yt"></a>
       <a href="https://www.instagram.com/cubedtronics"><img src="images/instagram.png" alt="insta"></a>
       <a href="https://www.fb.me/cubedtronics"><img src="images/facebook.png" alt="fb"></a>
     </div>
@@ -105,6 +107,7 @@ session_start();
       <div class="foot-link"><a href="faq">FAQ</a></div>
       <div class="foot-link"><a href="contact">Contact</a></div>
     </div>
+  </div>
   </div>
 </body>
 </html>
